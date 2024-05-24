@@ -1,5 +1,7 @@
 export default {
   config: {
+    tutorials: false,
+    notifications: { releases: false },
     locales: [
       // 'ar',
       // 'fr',
@@ -29,7 +31,7 @@ export default {
       // 'zh',
     ],
   },
-  bootstrap(app) {
+  bootstrap(app: any) {
     console.log(app);
   },
 };

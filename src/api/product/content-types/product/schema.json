@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "Products",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Product_Name": {
+      "type": "string"
+    },
+    "Dynamic_Zone": {
+      "type": "dynamiczone",
+      "components": [
+        "product-sections.left-media-right-text",
+        "product-sections.left-text-right-image",
+        "product-sections.image-gallery"
+      ]
+    },
+    "Brochure": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

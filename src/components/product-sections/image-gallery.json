@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_product_sections_image_galleries",
+  "info": {
+    "displayName": "Image Gallery",
+    "icon": "landscape",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

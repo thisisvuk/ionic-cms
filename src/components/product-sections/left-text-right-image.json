@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_product_sections_left_text_right_images",
+  "info": {
+    "displayName": "Left Text | Right Image",
+    "icon": "dashboard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "blocks",
+      "required": true
+    },
+    "Media": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    }
+  }
+}

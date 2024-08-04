@@ -1,5 +1,15 @@
 import type { Schema, Attribute } from '@strapi/strapi';
 
+export interface ProductSectionsBrochure extends Schema.Component {
+  collectionName: 'components_product_sections_brochures';
+  info: {
+    displayName: 'Brochure';
+  };
+  attributes: {
+    Brochure: Attribute.Media;
+  };
+}
+
 export interface ProductSectionsImageGallery extends Schema.Component {
   collectionName: 'components_product_sections_image_galleries';
   info: {
@@ -41,6 +51,7 @@ export interface ProductSectionsLeftTextRightImage extends Schema.Component {
 declare module '@strapi/types' {
   export module Shared {
     export interface Components {
+      'product-sections.brochure': ProductSectionsBrochure;
       'product-sections.image-gallery': ProductSectionsImageGallery;
       'product-sections.left-media-right-text': ProductSectionsLeftMediaRightText;
       'product-sections.left-text-right-image': ProductSectionsLeftTextRightImage;

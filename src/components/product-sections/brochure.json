@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_product_sections_brochures",
+  "info": {
+    "displayName": "Brochure"
+  },
+  "options": {},
+  "attributes": {
+    "Brochure": {
+      "allowedTypes": [
+        "files",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

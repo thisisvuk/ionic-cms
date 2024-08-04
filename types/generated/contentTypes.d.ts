@@ -379,10 +379,10 @@ export interface ApiProductProduct extends Schema.CollectionType {
       [
         'product-sections.left-media-right-text',
         'product-sections.left-text-right-image',
-        'product-sections.image-gallery'
+        'product-sections.image-gallery',
+        'product-sections.brochure'
       ]
     >;
-    Brochure: Attribute.Media;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

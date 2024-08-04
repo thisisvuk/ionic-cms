@@ -20,15 +20,9 @@
       "components": [
         "product-sections.left-media-right-text",
         "product-sections.left-text-right-image",
-        "product-sections.image-gallery"
+        "product-sections.image-gallery",
+        "product-sections.brochure"
       ]
-    },
-    "Brochure": {
-      "allowedTypes": [
-        "files"
-      ],
-      "type": "media",
-      "multiple": true
     }
   }
 }
